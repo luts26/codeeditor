@@ -21,6 +21,7 @@ body{
 }
 .btn{
 	margin:15px 0 0 15px;
+	position:relative;
 }
 #editor>h2{
 	margin-left:25px;
@@ -34,9 +35,9 @@ body{
 	background:rgba(190, 190, 190, 0.5);
 	border-radius:10px;
 	display:none;
-	position:fixed;
-	left:5%;
-	top:65%;
+	position:absolute;
+	left:0;
+	top:35px;
 }
 	#file_list p{
 		text-align:right;
