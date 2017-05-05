@@ -1,0 +1,72 @@
+body{
+	font-family:Helvetica;
+	margin:0;
+	padding:0;
+}
+
+.red::-moz-placeholder{color:#f00}
+.red::-webkit-input-placeholder{color:#f00}
+.red:-moz-placeholder{color:#f00}
+.red:-ms-input-placeholder{color:#f00}
+
+#main_content{
+	padding:10px 35px;
+}
+#cText{
+	border:1px dashed #808080;
+	border-radius:10px;
+	height:250px;
+	padding:10px;
+	width:98%;
+}
+.btn{
+	margin:15px 0 0 15px;
+}
+#editor>h2{
+	margin-left:25px;
+	margin-top:5px;
+}
+#p_path{
+	display:none;
+	margin:15px 0 0 15px;
+}
+#file_list{
+	background:rgba(190, 190, 190, 0.5);
+	border-radius:10px;
+	display:none;
+	position:fixed;
+	left:5%;
+	top:65%;
+}
+	#file_list p{
+		text-align:right;
+		position:relative;
+		margin:0;
+		color:grey;
+		padding:0 5px 0 0;
+	}
+	#file_list span{
+		cursor:pointer;
+	}
+	#list{
+		padding:0 20px;
+		margin:-15px 10px 5px 0;
+	}
+	#list li{
+		color:#F4A460;
+		list-style:none;
+		cursor:pointer;
+		border-bottom:1px solid grey;
+		padding:5px;
+	}
+	#list li:last-child{
+		border:none;
+	}
+#result_code{
+	margin-top:20px;
+	padding-left:3px;
+}
+	#result_code iframe{
+		height:300px;
+		width:99%;
+}
