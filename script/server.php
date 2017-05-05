@@ -31,6 +31,6 @@
 		fwrite($f, $str);
 		fclose($f);
 		echo 1;
-		echo $dir;
+		echo substr($dir, 3);
 	}
 ?>
