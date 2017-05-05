@@ -12,7 +12,7 @@
 <body>
 	<div id="main_content">
 		<div id="editor">
-		<span style="display:inline-block;"><a href="/"><= back</a></span>
+		<span style="display:inline-block;"><a href="/">&#60;= back</a></span>
 			<h2 style="display:inline-block;">Online Code Editor</h2>
 				<!--required oninvalid="this.setCustomValidity('Здесь необходимо ввести имя или путь к файлу')"-->
 				
@@ -22,16 +22,16 @@
 				<input id="d2" type="button" name="save" value="Save">
 				<input id="d4" type="button" name="run" value="Run">
 				<input type="reset" name="reset" value="Clear">
+				<div id="file_list">
+					<p><span>X</span></p>
+					<ul id="list"></ul>
+				</div>
 			</div>
 			<div id="p_path">
 				<input id="d3" type="button" value="&nbsp; <-- &nbsp;">
 				<label>Enter file name: </label>
 				<input type="text" name="path">
 				<input id="d5" type="button" value="&nbsp; OK &nbsp;">
-			</div>
-			<div id="file_list">
-				<p><span>X</span></p>
-				<ul id="list"></ul>
 			</div>
 		</div>
 		<div id="result_code">
